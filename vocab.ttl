@@ -14,7 +14,7 @@
 
 
 onto:Auteur a rdfs:Class ;
-    rdfs:label "Nouveaute" ;
+    rdfs:label "Autheur" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
