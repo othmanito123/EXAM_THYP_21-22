@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+@prefix mo: <http://data.press.net/ontology/asset#>.
+@prefix onto: <https://github.com/othmanito123/THYP_21-22/tree/main/onto//#> .
+
+<https://github.com/othmanito123/THYP_21-22/tree/main/onto#> a owl:Ontology ;
+    dcterms:title "Press onto" .
+
+
+
+onto:Auteur a rdfs:Class ;
+    rdfs:label "Nouveaute" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Article a rdfs:Class ;
+    rdfs:label "Article" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs mo:Transcription;
+    vs:term_status "experimental" .
+
+onto:Titre a rdf:Property ;
+    rdfs:label "mdp" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+onto:Date_sortie a rdf:Property ;
+    rdfs:label "Date_sortie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+onto:Image a rdf:Property ;
+    rdfs:label "Image" ;
+    rdfs:domain o:Resource .
+
+onto:Video a rdf:Property ;
+    rdfs:label "Video" ;
+    rdfs:domain o:Resource .
+
+onto:Texte a rdf:Property;
+    rdfs:label "Video" ;
+    rdfs:domain o:Resource .
+
+
+onto:Rubrique a rdf:Property ;
+    rdfs:label "facture" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Age a rdf:Property ;
+    rdfs:label "age" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Nom a rdf:Property ;
+    rdfs:label "Nom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+onto:Prenom a rdf:Property ;
+    rdfs:label "prenom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
+
+
