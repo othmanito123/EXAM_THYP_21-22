@@ -25,7 +25,7 @@ onto:Article a rdfs:Class ;
     vs:term_status "experimental" .
 
 onto:Titre a rdf:Property ;
-    rdfs:label "mdp" ;
+    rdfs:label "titre" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -45,12 +45,12 @@ onto:Video a rdf:Property ;
     rdfs:domain o:Resource .
 
 onto:Texte a rdf:Property;
-    rdfs:label "Video" ;
+    rdfs:label "Texte" ;
     rdfs:domain o:Resource .
 
 
 onto:Rubrique a rdf:Property ;
-    rdfs:label "facture" ;
+    rdfs:label "rubrique" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
