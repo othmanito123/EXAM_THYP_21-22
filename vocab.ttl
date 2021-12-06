@@ -6,9 +6,9 @@
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://data.press.net/ontology/asset#>.
-@prefix onto: <https://github.com/othmanito123/THYP_21-22/tree/main/onto//#> .
+@prefix onto: <https://github.com/othmanito123/EXAM_THYP_21-22#> .
 
-<https://github.com/othmanito123/THYP_21-22/tree/main/onto#> a owl:Ontology ;
+<https://github.com/othmanito123/EXAM_THYP_21-22#> a owl:Ontology ;
     dcterms:title "Press onto" .
 
 
