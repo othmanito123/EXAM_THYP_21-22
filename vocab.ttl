@@ -69,6 +69,11 @@ onto:Prenom a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+    onto:Biographie a rdf:Property ;
+    rdfs:label "Biographie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 
 
 
