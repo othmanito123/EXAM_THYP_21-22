@@ -1,0 +1,77 @@
+{
+    "o:label": "NewsArticle",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+            "vocabulary_label": "NewsPress",
+            "local_name": "Titre",
+            "label": "titre"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+            "vocabulary_label": "NewsPress",
+            "local_name": "Date_sortie",
+            "label": "Date_sortie"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+            "vocabulary_label": "NewsPress",
+            "local_name": "Image",
+            "label": "Image"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+            "vocabulary_label": "NewsPress",
+            "local_name": "Video",
+            "label": "Video"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+            "vocabulary_label": "NewsPress",
+            "local_name": "Texte",
+            "label": "Texte"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+            "vocabulary_label": "NewsPress",
+            "local_name": "Rubrique",
+            "label": "rubrique"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+        "vocabulary_label": "NewsPress",
+        "local_name": "Article",
+        "label": "Article"
+    }
+}

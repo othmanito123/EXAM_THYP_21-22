@@ -1,0 +1,55 @@
+{
+    "o:label": "NewsAuthor",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+            "vocabulary_label": "NewsPress",
+            "local_name": "Nom",
+            "label": "Nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+            "vocabulary_label": "NewsPress",
+            "local_name": "Prenom",
+            "label": "prenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+            "vocabulary_label": "NewsPress",
+            "local_name": "Age",
+            "label": "age"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+            "vocabulary_label": "NewsPress",
+            "local_name": "Biographie",
+            "label": "Biographie"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/EXAM_THYP_21-22#",
+        "vocabulary_label": "NewsPress",
+        "local_name": "Auteur",
+        "label": "Autheur"
+    }
+}
